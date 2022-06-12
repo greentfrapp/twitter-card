@@ -6,12 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body style="margin: 0;">
 
   <title>video player</title>
 
-  <iframe src="https://greentfrapp.github.io" width="480" height="480" />
+  <iframe src="https://greentfrapp.github.io" width="480" height="480"></iframe>
 
+  <button id="test">Test</button>
+
+  <script>
+      document.getElementById('test').onclick = () => {
+          alert('test')
+      }
+  </script>
 </body>
 
 </html>
